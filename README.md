@@ -1,7 +1,7 @@
-#Responsive Bootstrap Grid
-##subheadings move to side on mobile view
+# Responsive Bootstrap Grid
+## subheadings move to side on mobile view
 
-#Install:
+# Install:
 * $ cd lib
 * npm install
 * $ grunt
