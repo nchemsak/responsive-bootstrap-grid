@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="images/fullsize-layout.jpg" width="350"/>
+## Full size layout
+  <img src="images/fullsize-layout.jpg" width="450"/>
   <br />
+  ## Mobile layout
   <img src="images/mobile-layout.jpg" width="350"/>
 </p>
