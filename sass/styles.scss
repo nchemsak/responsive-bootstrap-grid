@@ -39,6 +39,20 @@ $color-orange: #fd8e34;
     }
 }
 
+// zoom in mixin for images. Use "@include zoom;""
+@mixin zoom {
+    @include md {
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+        &:hover {
+            -moz-transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+    }
+}
 
 #services {
     background-color: #fff;
@@ -56,44 +70,57 @@ $color-orange: #fd8e34;
     transition: all .2s ease-in;
 }
 
-.men-procedures {
-    background: url(/images/men-procedures.jpg) center no-repeat;
-    background-size: cover;
+.services-frame {
+    position: relative;
+    overflow: hidden;
 }
 
-.body-contouring {
+.pic-one {
     background: url(/images/men-procedures.jpg) center no-repeat;
     background-size: cover;
+    @include zoom;
 }
 
-.tattoo-removal {
+.pic-two {
     background: url(/images/men-procedures.jpg) center no-repeat;
     background-size: cover;
+    @include zoom;
 }
 
-.laser-hair-removal {
+.pic-three {
     background: url(/images/men-procedures.jpg) center no-repeat;
     background-size: cover;
+    @include zoom;
 }
 
-.injectables {
+.pic-four {
     background: url(/images/men-procedures.jpg) center no-repeat;
     background-size: cover;
+    @include zoom;
 }
 
-.laser-skin-treatments {
+.pic-five {
     background: url(/images/men-procedures.jpg) center no-repeat;
     background-size: cover;
+    @include zoom;
 }
 
-.spa-services {
+.pic-six {
     background: url(/images/men-procedures.jpg) center no-repeat;
     background-size: cover;
+    @include zoom;
 }
 
-.kybella-chin {
+.pic-seven {
     background: url(/images/men-procedures.jpg) center no-repeat;
     background-size: cover;
+    @include zoom;
+}
+
+.pic-eight {
+    background: url(/images/men-procedures.jpg) center no-repeat;
+    background-size: cover;
+    @include zoom;
 }
 
 

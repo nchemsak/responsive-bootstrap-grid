@@ -11,37 +11,121 @@
   -webkit-transition: all .2s ease-in;
   transition: all .2s ease-in; }
 
-.men-procedures {
-  background: url(/images/men-procedures.jpg) center no-repeat;
-  background-size: cover; }
+.services-frame {
+  position: relative;
+  overflow: hidden; }
 
-.body-contouring {
+.pic-one {
   background: url(/images/men-procedures.jpg) center no-repeat;
   background-size: cover; }
+  @media (min-width: 992px) {
+    .pic-one {
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      transition: all 1s ease; }
+      .pic-one:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1); } }
 
-.tattoo-removal {
+.pic-two {
   background: url(/images/men-procedures.jpg) center no-repeat;
   background-size: cover; }
+  @media (min-width: 992px) {
+    .pic-two {
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      transition: all 1s ease; }
+      .pic-two:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1); } }
 
-.laser-hair-removal {
+.pic-three {
   background: url(/images/men-procedures.jpg) center no-repeat;
   background-size: cover; }
+  @media (min-width: 992px) {
+    .pic-three {
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      transition: all 1s ease; }
+      .pic-three:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1); } }
 
-.injectables {
+.pic-four {
   background: url(/images/men-procedures.jpg) center no-repeat;
   background-size: cover; }
+  @media (min-width: 992px) {
+    .pic-four {
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      transition: all 1s ease; }
+      .pic-four:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1); } }
 
-.laser-skin-treatments {
+.pic-five {
   background: url(/images/men-procedures.jpg) center no-repeat;
   background-size: cover; }
+  @media (min-width: 992px) {
+    .pic-five {
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      transition: all 1s ease; }
+      .pic-five:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1); } }
 
-.spa-services {
+.pic-six {
   background: url(/images/men-procedures.jpg) center no-repeat;
   background-size: cover; }
+  @media (min-width: 992px) {
+    .pic-six {
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      transition: all 1s ease; }
+      .pic-six:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1); } }
 
-.kybella-chin {
+.pic-seven {
   background: url(/images/men-procedures.jpg) center no-repeat;
   background-size: cover; }
+  @media (min-width: 992px) {
+    .pic-seven {
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      transition: all 1s ease; }
+      .pic-seven:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1); } }
+
+.pic-eight {
+  background: url(/images/men-procedures.jpg) center no-repeat;
+  background-size: cover; }
+  @media (min-width: 992px) {
+    .pic-eight {
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      transition: all 1s ease; }
+      .pic-eight:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1); } }
 
 .card-img {
   min-width: 90px;
