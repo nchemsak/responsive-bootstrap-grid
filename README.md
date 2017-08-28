@@ -8,9 +8,6 @@
 
 <p align="center">
 
-  <img src="images/fullsize-layout.jpg" width="350"/>
-  <br />
-
 <h2>Full size layout</h2>
   <img src="images/fullsize-layout.jpg" width="450"/>
   <br />
