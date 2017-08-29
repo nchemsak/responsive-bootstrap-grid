@@ -1,10 +1,14 @@
 # Responsive Bootstrap Grid
-## subheadings move to side on mobile view
+
+# Features:
+## Subheadings move to side on mobile view
+## Subheadings have swipe animation on hover
+## Images have zoom in animation on hover
 
 # Install:
 * $ cd lib
 * npm install
-* $ grunt
+* $ grunt (to compile SCSS)
 
 <p align="center">
 
