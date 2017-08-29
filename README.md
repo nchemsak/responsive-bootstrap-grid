@@ -10,10 +10,9 @@
 * npm install
 * $ grunt (to compile SCSS)
 
-
-
-# Full size layout:
+# Full size layout view:
   <img src="images/fullsize-layout.jpg" width="750" />
-# Mobile layout:
+  
+# Mobile layout view:
   <img src="images/mobile-layout.jpg" width="350" />
 
