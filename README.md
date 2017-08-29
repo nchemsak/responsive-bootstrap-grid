@@ -12,7 +12,9 @@
 
 # Desktop layout view:
   <img src="images/fullsize-layout.jpg" width="750" />
-  
+
 # Mobile layout view:
   <img src="images/mobile-layout.jpg" width="350" />
 
+# gif:
+  <img src="images/three.gif" width="350"/>
