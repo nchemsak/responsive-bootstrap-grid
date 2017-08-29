@@ -10,7 +10,7 @@
 * npm install
 * $ grunt (to compile SCSS)
 
-# Full size layout view:
+# Desktop layout view:
   <img src="images/fullsize-layout.jpg" width="750" />
   
 # Mobile layout view:
