@@ -1,9 +1,9 @@
 # Responsive Bootstrap Grid
 
 # Features:
-## Subheadings move to side on mobile view
-## Subheadings have swipe animation on hover
-## Images have zoom in animation on hover
+* Subheadings move to side on mobile view
+* Subheadings have swipe animation on hover
+* Images have zoom in animation on hover
 
 # Install:
 * $ cd lib
