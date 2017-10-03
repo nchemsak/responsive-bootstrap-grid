@@ -1,4 +1,4 @@
-#services {
+.services {
   background-color: #fff;
   color: #0cb29c;
   margin: 0 auto 50px auto; }
@@ -62,6 +62,7 @@
       -ms-transition: all 1s ease;
       transition: all 1s ease; }
       .pic-one:hover {
+        -webkit-backface-visibility: hidden;
         -moz-transform: scale(1.1);
         -webkit-transform: scale(1.1);
         transform: scale(1.1); } }
@@ -76,6 +77,7 @@
       -ms-transition: all 1s ease;
       transition: all 1s ease; }
       .pic-two:hover {
+        -webkit-backface-visibility: hidden;
         -moz-transform: scale(1.1);
         -webkit-transform: scale(1.1);
         transform: scale(1.1); } }
@@ -90,6 +92,7 @@
       -ms-transition: all 1s ease;
       transition: all 1s ease; }
       .pic-three:hover {
+        -webkit-backface-visibility: hidden;
         -moz-transform: scale(1.1);
         -webkit-transform: scale(1.1);
         transform: scale(1.1); } }
@@ -104,6 +107,7 @@
       -ms-transition: all 1s ease;
       transition: all 1s ease; }
       .pic-four:hover {
+        -webkit-backface-visibility: hidden;
         -moz-transform: scale(1.1);
         -webkit-transform: scale(1.1);
         transform: scale(1.1); } }
@@ -118,6 +122,7 @@
       -ms-transition: all 1s ease;
       transition: all 1s ease; }
       .pic-five:hover {
+        -webkit-backface-visibility: hidden;
         -moz-transform: scale(1.1);
         -webkit-transform: scale(1.1);
         transform: scale(1.1); } }
@@ -132,6 +137,7 @@
       -ms-transition: all 1s ease;
       transition: all 1s ease; }
       .pic-six:hover {
+        -webkit-backface-visibility: hidden;
         -moz-transform: scale(1.1);
         -webkit-transform: scale(1.1);
         transform: scale(1.1); } }
@@ -146,6 +152,7 @@
       -ms-transition: all 1s ease;
       transition: all 1s ease; }
       .pic-seven:hover {
+        -webkit-backface-visibility: hidden;
         -moz-transform: scale(1.1);
         -webkit-transform: scale(1.1);
         transform: scale(1.1); } }
@@ -160,6 +167,7 @@
       -ms-transition: all 1s ease;
       transition: all 1s ease; }
       .pic-eight:hover {
+        -webkit-backface-visibility: hidden;
         -moz-transform: scale(1.1);
         -webkit-transform: scale(1.1);
         transform: scale(1.1); } }
@@ -204,5 +212,31 @@
   @media (min-width: 1200px) {
     .caption {
       width: 100%; } }
+
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.col-xs-5ths {
+  width: 20%;
+  float: left; }
+
+@media (min-width: 768px) {
+  .col-sm-5ths {
+    width: 20%;
+    float: left; } }
+@media (min-width: 992px) {
+  .col-md-5ths {
+    width: 20%;
+    float: left; } }
+@media (min-width: 1200px) {
+  .col-lg-5ths {
+    width: 20%;
+    float: left; } }
 
 /*# sourceMappingURL=styles.full.css.map */
